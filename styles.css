@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+}
+/* Heading */
+h1{
+    background-color: #240046;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    color: #f1f7ed;
+    font-family: monospace;
+}
+
+/* Game options */
+#game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+}
+
+.choices{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices:hover{
+    background-color: #240046;
+    cursor: pointer;
+}
+
+.choices img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#rock{
+    margin-top: 10rem;
+}
+
+#scissor{
+    margin-top: 10rem;
+}
+
+/* Score card */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#score{
+    margin-top: 4rem;
+    gap: 5rem;
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: 300;
+    color: #03045e;
+}
+
+.indScore{
+    flex-direction: column;
+}
+
+.indScore p{
+    font-size: 4rem;
+}
+
+/* Result board */
+#result{
+    margin-top: 2.5rem;
+    display: inline-block;
+    background-color: #3a0ca3;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 1.5rem;
+    font-family: cursive;
+}
